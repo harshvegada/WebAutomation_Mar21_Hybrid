@@ -10,5 +10,5 @@
 			<class name="testscripts.LoginTest" />
 			<class name="testscripts.PIMTest" />
 		</classes>
-	</test> <!-- Test -->
-</suite> <!-- Suite -->
+	</test>
+</suite>
