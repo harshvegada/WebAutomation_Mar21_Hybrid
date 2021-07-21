@@ -14,7 +14,7 @@ public class LoginTest extends TestBase {
 	@Test
 	public void verify_user_able_to_login_and_11_quick_access_is_displayed() {
 		LoginPage loginPage = LoginPage.getPageInstance();
-		Assert.assertTrue(!loginPage.isLogoDisplayed(), "Logo not displayed on Login Page");
+		Assert.assertTrue(loginPage.isLogoDisplayed(), "Logo not displayed on Login Page");
 		log.info("Logo displayed");
 		loginPage.login("admin", "A@1BomfBL3");
 		log.info("Username & password enter");

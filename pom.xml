@@ -80,7 +80,7 @@
 				<configuration>
 					<systemPropertyVariables>
 						<browser>${browser}</browser>
-						<environmane>${env}</environmane>
+						<env>${env}</env>
 					</systemPropertyVariables>
 					<suiteXmlFiles>
 						<suiteXmlFile>testng.xml</suiteXmlFile>
