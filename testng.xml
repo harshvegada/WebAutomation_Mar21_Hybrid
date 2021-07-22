@@ -8,6 +8,7 @@
 	<test name="Test">
 		<classes>
 			<class name="testscripts.LoginTest" />
+			<class name="testscripts.PIMTest" />
 		</classes>
 	</test>
 </suite>
