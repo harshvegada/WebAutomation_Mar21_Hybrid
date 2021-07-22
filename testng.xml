@@ -7,7 +7,6 @@
 	</listeners>
 	<test name="Test">
 		<classes>
-			<class name="testscripts.PIMTest" />
 			<class name="testscripts.LoginTest" />
 		</classes>
 	</test>
